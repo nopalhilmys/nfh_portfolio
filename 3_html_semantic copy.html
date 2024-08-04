@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Semantic HTML : 
+            adalah konsep tag untuk develop web dimana penamaan tag tersebut memiliki makna / arti.
+
+            Menagapa harus semantic ? 
+                1. mempermudah maintenance kode & pengembangan
+                2. aksesibilitas = mempermudah screen reader tech untuk menginterpretasikan konten di page. contoh : header, nav, footer.
+            
+                Secara umum tag semantic seperti gambar. Selebehinya ada beberapa tag yang tidak dijelaskan untuk lebih lengkapnya bisa dilihat di referensi :
+                https://www.w3schools.com/html/html5_semantic_elements.asp
+         -->
+        <header>
+            <h1>Headings 1</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.trans7.co.id/" target="_blank">About</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Voluptatem harum qui ex labore eveniet tempora iste quos quia alias? Aliquam incidunt eveniet suscipit<br />
+                    accusamus obcaecati quo, fugiat mollitia ipsam placeat?
+                </p>
+            </section>
+            <section>
+                <form action="#">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                    <br />
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="email" />
+                    <br />
+                    <label for="comment">Comment</label>
+                    <br />
+                    <textarea name="comment" id="comment" cols="20" rows="5"></textarea>
+                    <br />
+                    <input type="submit" value="Submit Form" />
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 My Simple Website</p>
+        </footer>
+    </body>
+</html>
